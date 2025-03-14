@@ -15,15 +15,15 @@ export const s = StyleSheet.create({
     },
     title:{
         fontSize: 16,
-        color: colors.gray[700],
+        color: colors.gray[900],
         fontFamily: fontFamily.semiBold,
     },
     description:{
         fontSize: 14,
         marginTop: 8,
         marginHorizontal: 5,
-        color: colors.gray[700],
-        fontFamily: fontFamily.regular
+        color: colors.gray[800],
+        fontFamily: fontFamily.medium,
     }
 })
 

@@ -12,7 +12,7 @@ type Props = {
 export function Step({title, description, icon}: Props) {
     return (
         <View style={s.container}>
-        {<MaterialCommunityIcons name={icon} size={52} color="black" />}
+        {<MaterialCommunityIcons name={icon} size={52} color="green" />}
             <View style={s.details}>
                 <Text style={s.title}>{title}</Text>
                 <Text style={s.description}>{description}</Text>
