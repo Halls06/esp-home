@@ -1,6 +1,5 @@
 import {Text, TextProps, TouchableOpacity, TouchableOpacityProps, ActivityIndicator} from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-
+import * as icons  from '@expo/vector-icons';
 import { s } from './style';
 import { colors } from '@/styles/colors';
 
@@ -32,11 +31,11 @@ function Title({ children }: TextProps) {
 }
 
 type IconProps = {
-    icon: keyof typeof MaterialCommunityIcons.glyphMap;
+    icon: keyof typeof icons.MaterialCommunityIcons.glyphMap;
 }
 
 function Icon({icon}: IconProps){
-    return <MaterialCommunityIcons name={icon} size={24} color={colors.gray[200]} />
+    return <icons.MaterialCommunityIcons name={icon} size={24} color={colors.gray[200]} />
 }
     
 Button.Title = Title;

@@ -23,4 +23,18 @@ export const s = StyleSheet.create({
         height: 52,
         width: 48,
     },
+    buttonIo: {
+        marginTop: 60,
+        flexDirection: "row",
+        alignContent: "center",
+        justifyContent: "space-between",
+    },
+    buttonOn: {
+        width: "48%",
+        height: 48,
+    },
+    buttonOff: {
+        width: "48%",
+        height: 48,
+    }
 })
